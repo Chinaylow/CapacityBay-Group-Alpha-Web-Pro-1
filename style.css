@@ -3,4 +3,36 @@
     margin: 0;
     box-shadow: none;
 }
+main{
+    height: 100vph;
+}
 
+.white{
+    background-color:  aqua;
+    height: 45px;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+    
+
+}
+.first-con{
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+}
+.second-con{
+    background-color: blueviolet;
+    height: 400px;
+
+}
+.blue{
+    height: 45px;
+
+}
