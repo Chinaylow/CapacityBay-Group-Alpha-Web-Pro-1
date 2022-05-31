@@ -24,6 +24,10 @@
     height: 300px;
     background-color: aquamarine;
 }
+img{
+    width: 200px;
+    height: 270px;
+}
 .second-con{
     background-color: blueviolet;
     height: 400px;
