@@ -77,6 +77,10 @@ img{
     top: 150px;
     right: 170px;
 }
+img{
+    width: 200px;
+    height: 270px;
+}
 .second-con{
     background-color: blueviolet;
     height: 400px;
