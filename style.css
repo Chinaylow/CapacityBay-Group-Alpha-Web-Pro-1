@@ -253,6 +253,7 @@ h3{
 @media screen and (max-width:850px){
     .shadow{
         height: 450px;
+        display: none;
     }
 }
 @media screen and (max-width:800px){
@@ -265,10 +266,11 @@ h3{
     .section2{
         margin-top: 40px;
         margin-left: 15px;
+        max-width: 370px;
        
     }
     .pricetag{
-        left: 40%;
+        left: 50%;
     }
     .container .first-con .section2 .hours{
         top: 23%;
@@ -276,6 +278,7 @@ h3{
     }
     .second-con{ grid-template-columns: 100%;
         height: 1480px;
+        width: 85%;
     }
     .box-box1{
         height: 130px;
