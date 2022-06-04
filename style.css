@@ -264,12 +264,19 @@ h3{
     }
 
 }
+@media screen and (max-width:900px){
+    .container .first-con .section2 .pricetag{
+        position: absolute;
+        right: -1%;
+    }
+}
 
 @media screen and (max-width:880px){
     .shadow{
         width: 135px;
     }
-}
+
+        }
 @media screen and (max-width:800px){
     .first-con{
         display: block;
