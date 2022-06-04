@@ -74,8 +74,8 @@ header{
 .container .first-con .section1 p {
     margin-top: 20px;
     margin-bottom: 30px;
-    width:350 ;
     color: var(--tertiary-color);
+    width: 350px;
 
 }
 .section1{
@@ -350,6 +350,12 @@ h3{
     .box-box1, .box-box2, .box-box3, .box-box4, .box-box5, .box-box6{
         width: 100%;
     }
+    .box-box2 p{
+        margin-bottom: 2px;
+    }
+    .box-box6 p{
+        margin-bottom: 2px;
+    }
     .section2{
         max-width: 90%;
     }
@@ -358,6 +364,12 @@ h3{
     }
     .second-con p{
         max-width: 95%;
+    }
+    .container .first-con .section1 p {
+        width:250px ;
+    }
+    .section1 h1{
+        width: 250px;
     }
 
 }
