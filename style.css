@@ -31,7 +31,7 @@ button{
 
 .white{
 
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     height: 60px;
     display: flex;
@@ -47,7 +47,7 @@ header{
 
 }
 .white button{
-    margin-right: 75px;
+    /* margin-right: 75px; */
     border: none;
     outline: none;
     padding: 10px 20px;
@@ -104,15 +104,18 @@ header{
 }
 .shadow{
     width:180px;
-    height: 500px;
+    height: 132px;
     background-image: linear-gradient(to top, rgb(243, 42, 243), rgb(18, 18, 159));
-    transform: rotatez(48deg);
+    transform: matrix(1.5,-0.9,0,1.5,0,0);
+    /* transform: skew(-30deg); */
+    /* -ms-transform: skewY(-20deg); */
      position: absolute;
-     border-top-right-radius: 50px;
+     /* border-top-right-radius: 50px;
      border-bottom-right-radius: 30px;
-     border-bottom-left-radius: 30px;
-    bottom: 49.5%;
-    left: 75%;
+     border-bottom-left-radius: 30px; */
+     bottom: 71%;
+
+    left: 71%;
     z-index: -3;
 
 }
@@ -122,7 +125,7 @@ header{
     height: 300px;
     border-radius: 6rem;
     position: absolute;
-    left: 40%;
+    left: 42%;
 }
 
 .container .first-con .section2 .pricetag{
@@ -133,7 +136,7 @@ header{
     border-radius: 0.3rem;
     position: absolute;
     top: 10%;
-    right:5%; 
+    right:10%; 
 
 
 }
@@ -249,11 +252,22 @@ h3{
     height: 800px;
     }
 }
-
-@media screen and (max-width:850px){
+@media screen and (max-width:1100px){
     .shadow{
-        height: 450px;
-        display: none;
+        width: 165px;
+    }
+
+}
+@media screen and (max-width:950px){
+    .shadow{
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width:880px){
+    .shadow{
+        width: 135px;
     }
 }
 @media screen and (max-width:800px){
@@ -303,6 +317,9 @@ h3{
     }
     .white button{
         margin-right: 0px;
+    }
+    .shadow{
+        display: none;
     }
 
 }
