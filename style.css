@@ -64,7 +64,7 @@ header{
 }
 .first-con{
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -74,7 +74,7 @@ header{
 .container .first-con .section1 p {
     margin-top: 20px;
     margin-bottom: 30px;
-    width:350px ;
+    width:350 ;
     color: var(--tertiary-color);
 
 }
@@ -96,24 +96,21 @@ header{
 }
 .container .first-con .section2{
     position: relative;
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    /* height: 600px; */
     display: flex;
     justify-content: end;
 
 }
 .shadow{
-    width:180px;
+    width:155px;
     height: 132px;
     background-image: linear-gradient(to top, rgb(243, 42, 243), rgb(18, 18, 159));
     transform: matrix(1.5,-0.9,0,1.5,0,0);
     /* transform: skew(-30deg); */
     /* -ms-transform: skewY(-20deg); */
      position: absolute;
-     /* border-top-right-radius: 50px;
-     border-bottom-right-radius: 30px;
-     border-bottom-left-radius: 30px; */
-     bottom: 71%;
+     bottom: 50%;
 
     left: 71%;
     z-index: -3;
@@ -122,10 +119,10 @@ header{
    
 .section2 img{ 
     width: 180px;
-    height: 300px;
+    height: 280px;
     border-radius: 6rem;
     position: absolute;
-    left: 42%;
+    left: 25%;
 }
 
 .container .first-con .section2 .pricetag{
@@ -147,8 +144,8 @@ header{
     padding: 0.5rem;
     border-radius: 0.3rem;
    position: absolute;
-   top: 30%;
-   left: 25%;
+   bottom: 5%;
+   left: 5%;
 }
 .container .first-con .section2 p{
     margin-bottom: 8px;
@@ -160,11 +157,11 @@ header{
 }
 
 .second-con{
-    height: 600px;
+    /* height: 600px; */
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px 10px;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 15px;
     margin: 0 auto;
     width: 100%;
 }
@@ -248,19 +245,19 @@ h3{
 
 @media screen and (max-width:1170px) {
     .second-con{ grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 800px;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* height: 800px; */
     }
 }
 @media screen and (max-width:1100px){
     .shadow{
-        width: 165px;
+        width: 140px;
     }
 
 }
 @media screen and (max-width:950px){
     .shadow{
-        width: 150px;
+        width: 130px;
     }
 
 }
@@ -269,11 +266,17 @@ h3{
         position: absolute;
         right: -1%;
     }
+    .section2{
+        width: 400px;
+    }
+    .pricetag{
+        left: 60%;
+    }
 }
 
 @media screen and (max-width:880px){
     .shadow{
-        width: 135px;
+        width: 125px;
     }
 
         }
@@ -287,18 +290,19 @@ h3{
     .section2{
         margin-top: 40px;
         margin-left: 15px;
-        max-width: 370px;
-       
+        max-width: 90%;
+        height: 100%;  
     }
     .pricetag{
-        left: 50%;
+        left: 45%;
     }
     .container .first-con .section2 .hours{
-        top: 23%;
-        left: -7%;
+        bottom: 60%;
+        left: -10%;
+        
     }
     .second-con{ grid-template-columns: 100%;
-        height: 1480px;
+        /* height: 1480px; */
         width: 85%;
     }
     .box-box1{
@@ -327,6 +331,33 @@ h3{
     }
     .shadow{
         display: none;
+    }
+}
+@media screen and (max-width:500px){
+    .pricetag{
+        left: 50%;
+    }
+
+}
+@media screen and (max-width:450px){
+    .pricetag{
+        left: 60%;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    .box-box1, .box-box2, .box-box3, .box-box4, .box-box5, .box-box6{
+        width: 100%;
+    }
+    .section2{
+        max-width: 90%;
+    }
+    .pricetag{
+        left: 70%;
+    }
+    .second-con p{
+        max-width: 95%;
     }
 
 }
