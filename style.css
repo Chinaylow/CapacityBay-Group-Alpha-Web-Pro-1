@@ -103,16 +103,13 @@ header{
 
 }
 .shadow{
-    width:155px;
-    height: 132px;
-    background-image: linear-gradient(to top, rgb(243, 42, 243), rgb(18, 18, 159));
-    transform: matrix(1.5,-0.9,0,1.5,0,0);
-    /* transform: skew(-30deg); */
-    /* -ms-transform: skewY(-20deg); */
+    width:182px;
+    height: 126px;
+    background-image: linear-gradient(to right, rgb(206, 30, 206), rgb(68, 68, 225));
+    transform: matrix(1.5,-1,0,1.5,0,0);
      position: absolute;
-     bottom: 50%;
-
-    left: 71%;
+     bottom: 44%;
+     left: 68%;
     z-index: -3;
 
 }
@@ -241,23 +238,25 @@ h3{
     background:var(--btn2);
      
 }
-
+@media screen and (max-width:1200px) {
+.shadow{
+    width: 160px;
+}
+}
 
 @media screen and (max-width:1170px) {
     .second-con{ grid-template-columns: 50% 50%;
-    /* grid-template-rows: 1fr 1fr 1fr; */
-    /* height: 800px; */
     }
 }
 @media screen and (max-width:1100px){
     .shadow{
-        width: 140px;
+        width: 153px;
     }
 
 }
 @media screen and (max-width:950px){
     .shadow{
-        width: 130px;
+        width: 145px;
     }
 
 }
@@ -276,7 +275,7 @@ h3{
 
 @media screen and (max-width:880px){
     .shadow{
-        width: 125px;
+        width: 135px;
     }
 
         }
