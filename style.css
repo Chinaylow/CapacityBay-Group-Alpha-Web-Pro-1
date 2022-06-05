@@ -287,9 +287,12 @@ h3{
         width: 85%;
         margin-top: 20px;
     }
+    .section1{
+        margin-left: 55px;
+    }
     .section2{
         margin-top: 40px;
-        margin-left: 15px;
+        margin-left: 50px;
         max-width: 90%;
         height: 100%;  
     }
@@ -356,8 +359,12 @@ h3{
     .box-box6 p{
         margin-bottom: 2px;
     }
+    .section1{
+        margin-left: 40px;
+    }
     .section2{
         max-width: 90%;
+        margin-left: 40px;
     }
     .pricetag{
         left: 70%;
@@ -372,4 +379,19 @@ h3{
         width: 250px;
     }
 
+}
+@media screen and (max-width:400px){
+    .section1{
+        margin-left: 10px;
+        width: 90%;
+    }
+    .section1 h1{
+        width: 250px;
+    }
+    .section1 p{
+        width: 250px;
+    }
+    .section2{
+        margin-left: 10px;
+    }
 }
